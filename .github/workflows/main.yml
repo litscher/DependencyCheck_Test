@@ -10,7 +10,7 @@ jobs:
       - name: Build project with Maven
         run: mvn clean install
       - name: Depcheck
-        uses: litscher/Dependency-Check_Action@1.0.0
+        uses: litscher/Dependency-Check_Action@main
         id: Depcheck
         with:
           project: 'test'
