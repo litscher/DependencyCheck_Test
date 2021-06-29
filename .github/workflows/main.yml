@@ -18,6 +18,7 @@ jobs:
           format: 'HTML'    
           args: >
             --disableYarnAudit
+            --cveValidForHours 4
       - name: Upload Test results
         uses: actions/upload-artifact@master
         with:
